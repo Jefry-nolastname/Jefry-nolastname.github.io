@@ -5,7 +5,14 @@ DREAM PULSE
 https://templatemo.com/tm-536-dream-pulse
 
 */
-
+.bold{
+  font-weight: bolder;
+  color: cornflowerblue;
+}
+.space{
+  word-spacing: 70px;
+  font-family: monospace;
+}
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
