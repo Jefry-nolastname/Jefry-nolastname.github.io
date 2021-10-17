@@ -59,12 +59,21 @@ $(document).ready(function() {
     ]
   });
 
-  // // Image Pop Up
+  // Image Pop Up
   // $(".tm-gallery").magnificPopup({
-  //   delegate: "a", // child items selector, by clicking on it popup will open
+  //   delegate: ".selected", // child items selector, by clicking on it popup will open
   //   type: "image",
   //   gallery: { enabled: true }
   // });
+  $(".tm-gallery-item").each(function() { // the containers for all your galleries
+      $(this).magnificPopup({
+          delegate: 'a', // the selector for gallery item
+          type: 'image',
+          gallery: {
+            enabled:true
+          }
+      });
+  });
 
   $(".navbar-toggler").on("click", function(e) {
     $(".tm-sidebar").toggleClass("show");
