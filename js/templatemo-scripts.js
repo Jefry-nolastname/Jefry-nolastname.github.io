@@ -5,8 +5,8 @@ $(document).ready(function() {
   // Carousel in Our Work section
   $(".tm-gallery").slick({
     dots: true,
-    infinite: false,
-    arrows: false,
+    infinite: true,
+    arrows: true,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 2,
@@ -14,7 +14,7 @@ $(document).ready(function() {
       {
         breakpoint: 1600,
         settings: {
-          arrows: false,
+          arrows: true,
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
@@ -24,7 +24,7 @@ $(document).ready(function() {
       {
         breakpoint: 1200,
         settings: {
-          arrows: false,
+          arrows: true,
           slidesToShow: 2,
           slidesToScroll: 1
         }
@@ -32,7 +32,7 @@ $(document).ready(function() {
       {
         breakpoint: 991,
         settings: {
-          arrows: false,
+          arrows: true,
           slidesToShow: 3,
           slidesToScroll: 1
         }
@@ -40,7 +40,7 @@ $(document).ready(function() {
       {
         breakpoint: 767,
         settings: {
-          arrows: false,
+          arrows: true,
           slidesToShow: 2,
           slidesToScroll: 1
         }
@@ -48,7 +48,7 @@ $(document).ready(function() {
       {
         breakpoint: 480,
         settings: {
-          arrows: false,
+          arrows: true,
           slidesToShow: 1,
           slidesToScroll: 1
         }
